@@ -44,6 +44,7 @@
 
 
 
+
   <!-- =======================================================
   * Template Name: Personal - v2.1.0
   * Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
@@ -77,6 +78,8 @@
           <li><a href="https://drive.google.com/file/d/1pT-Nk6AxY9ZOWBizuDb4htA3IiUF_fSe/view?usp=sharing" target="_blank"> <span>Resume</span></a></li>
           <!-- <li><a href="#links"> <span>Resume & Links</span></a></li> -->
           <li><a href="#contacts"> <span>Contact</span></a></li>
+          <li><a href="#links"> <span>Links</span></a></li>
+          <li><a href="#resume-view"> <span>R1</span></a></li>
 
         </ul>
       </nav><!-- .nav-menu -->
@@ -694,6 +697,23 @@
 
   <!-- End Contact Section -->
 
+
+  <!-- Start Resume View Section -->
+    <section id="resume-view" class="services">
+    <div class="container">
+      <div class="section-title">
+        <h2>Resume</h2>
+      </div>
+ <embed
+  src="https://drive.google.com/file/d/1J5vwvJXQqvT4P6Xg0slSDLJzINXBZKqY/view?usp=sharing#toolbar=0&navpanes=0&scrollbar=0"
+  width="1425" height="1425" />
+          </div>
+        </div>
+    </div>
+  </section>
+
+    <!-- End Resume View Section -->
+
   <!-- Vendor JS Files -->
   <script src="assets/vendor/jquery/jquery.min.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -716,6 +736,21 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+    <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      // Add smooth scroll to anchor links
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+
+          document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+          });
+        });
+      });
+    });
+  </script>
 
 </body>
 
